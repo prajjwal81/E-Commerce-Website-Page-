@@ -1,0 +1,54 @@
+#mainDiv{
+    margin: auto
+}
+.container .line  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% left;
+    
+}
+.container .line .colu{
+   
+    flex: 0 0 33.333333%;
+    height: 700px;
+}
+.container .line .colu .card-img-top{
+    height: 360px;
+}
+.container .line .colu  .card-body{
+    height: 250px;
+}
+
+.card .btn-primari{
+    display: none;
+}
+.card:hover .btn-primari{
+    display: block;
+}
+#cartImg{
+     height: 50px;
+}
+.div-inline ul.img{
+    display: none;
+    position: absolute;
+    list-style: none;
+    right: 4px;
+    left: auto;
+    
+
+}
+.div-inline:hover ul.img{
+    display: block;
+}
+
+
+.cardr .card-img-top{
+    height: 30px;
+    width: 30px;
+   
+
+}
+.cardr .button{
+  font-size: small;
+  margin-left: 100px;
+}
